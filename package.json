@@ -1,0 +1,39 @@
+{
+  "name": "template-i18n",
+  "version": "0.0.0",
+  "description": "Process templates for internationalization",
+  "main": "lib/processor",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkretschek/template-i18n"
+  },
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "template",
+    "dot",
+    "ejs",
+    "underscore",
+    "lodash"
+  ],
+  "author": "Mathias Kretschek <contact@mathias.ms>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkretschek/template-i18n/issues"
+  },
+  "homepage": "https://github.com/mkretschek/template-i18n",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "js-yaml": "^3.2.7",
+    "lodash": "^3.3.1"
+  }
+}
