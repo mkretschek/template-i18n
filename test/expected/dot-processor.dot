@@ -1,0 +1,7 @@
+<p>This is a test</p>
+<p>This is a simple test</p>
+<p>This is a test with {{=it.foo}}</p>
+<p>{{? it.count == 1}}This is a simple plural test{{??}}These are {{=it.count}} simple plural tests{{?}}</p>
+<p>{{? it.count == 1}}This is a plural test{{??}}These are {{=it.count}} plural tests{{?}}</p>
+<p>{{? it.count == 1}}This is a plural test with {{=it.foo}}{{??}}These are {{=it.count}} plural tests with {{=it.foo}}{{?}}</p>
+<p>{{? it.count == 1}}One test{{?? it.count < 10}}A few tests{{??}}{{=it.count}} tests{{?}}</p>

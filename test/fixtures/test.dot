@@ -1,0 +1,7 @@
+<p>This is a test</p>
+<p>{{:i18n(test.simple)}}</p>
+<p>{{:i18n(test.interpolation, {foo: 'it.foo'})}}</p>
+<p>{{:i18n(test.plural.simple, it.count)}}</p>
+<p>{{:i18n(test.plural.normal, {n: 'it.count'})}}</p>
+<p>{{:i18n(test.plural.interpolation, {n: 'it.count', foo: 'it.foo'})}}</p>
+<p>{{:i18n(test.plural.extended, it.count)}}</p>

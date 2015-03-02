@@ -1,0 +1,21 @@
+plural:
+  1: '{n} == 1'
+  few: '{n} < 10'
+
+test:
+  simple: 'This is a simple test'
+  interpolation: 'This is a test with {foo}'
+  plural:
+    simple:
+      1: 'This is a simple plural test'
+      else: 'These are {n} simple plural tests'
+    normal:
+      1: 'This is a plural test'
+      else: 'These are {n} plural tests'
+    interpolation:
+      1: 'This is a plural test with {foo}'
+      else: 'These are {n} plural tests with {foo}'
+    extended:
+      1: 'One test'
+      few: 'A few tests'
+      else: '{n} tests'
