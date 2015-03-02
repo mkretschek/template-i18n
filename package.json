@@ -1,6 +1,6 @@
 {
   "name": "template-i18n",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Process templates for internationalization",
   "main": "lib/processor",
   "scripts": {
