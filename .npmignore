@@ -1,0 +1,15 @@
+node_modules/
+test/
+logs/
+
+**/*.test.js
+CHANGELOG.md
+Gruntfile.js
+gulpfile.js
+.travis.yml
+.npmignore
+.git*
+.jshintrc
+*.swp
+*.log
+*.tgz
