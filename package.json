@@ -2,7 +2,7 @@
   "name": "template-i18n",
   "version": "0.0.1",
   "description": "Process templates for internationalization",
-  "main": "lib/processor",
+  "main": "lib/processor/index.js",
   "scripts": {
     "test": "gulp test"
   },
@@ -30,7 +30,8 @@
     "gulp": "^3.8.11",
     "gulp-mocha": "^2.0.0",
     "sinon": "^1.12.2",
-    "sinon-chai": "^2.7.0"
+    "sinon-chai": "^2.7.0",
+    "yargs": "^3.4.5"
   },
   "dependencies": {
     "js-yaml": "^3.2.7",
