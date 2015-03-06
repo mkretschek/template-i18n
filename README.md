@@ -202,7 +202,7 @@ because it's where we'll look for plural rules for the locale:
 ```json
 {
     "_plural": {
-        "1": "{n} == 1"
+        "1": "{n} == 1",
         "few": "{n} < 5"
     },
 
@@ -245,7 +245,7 @@ defines the string to be used if none of the plural rules apply to the value in
 the variable passed as `n`.
 
 And also, all pluralization rules are optional. You could, for example, ignore
-`few` rule:
+the `few` rule:
 
 ```html
 <div>
