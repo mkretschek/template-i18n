@@ -1,6 +1,6 @@
 {
   "name": "template-i18n",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Process templates for internationalization",
   "main": "index.js",
   "scripts": {
