@@ -1,4 +1,4 @@
-plural:
+_plural:
   1: '{n} == 1'
   few: '{n} < 10'
 
