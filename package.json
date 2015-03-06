@@ -2,7 +2,7 @@
   "name": "template-i18n",
   "version": "0.0.2",
   "description": "Process templates for internationalization",
-  "main": "lib/processor/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
